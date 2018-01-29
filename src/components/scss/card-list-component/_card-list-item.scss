@@ -1,0 +1,30 @@
+@import '../config/_color.scss';
+@import '../modules/_Image.scss';
+
+.card-container {
+  .card-img {
+    border: 1px solid $black;
+    height: 200px;
+  }
+
+  .card-subtitle {
+    font-weight: 600;
+    font-size: 10pt;
+    color: $grey;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+  }
+
+  .card-title {
+    padding-bottom: 6px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+  }
+
+  .card-text {
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+  }
+}
